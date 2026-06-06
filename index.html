@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Deehan Paul – AI Automation & Workflow Engineer | B.Tech CSE (AI/ML) at KIIT University. Portfolio showcasing AI automation projects, certifications, and skills." />
+  <meta name="keywords"
+    content="Deehan Paul, AI Automation, Workflow Automation, D2C Tech, Portfolio, KIIT, Machine Learning" />
+  <meta property="og:title" content="Deehan Paul | AI Automation Portfolio" />
+  <meta property="og:description" content="AI-powered workflows, automation pipelines, and enterprise AI platforms." />
+  <title>Deehan Paul | AI Automation &amp; Workflow Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo">
+        <span class="logo-text">DP</span>
+        <span class="logo-dot"></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <span class="theme-icon sun-icon">☀️</span>
+          <span class="theme-icon moon-icon">🌙</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="hero_bg.png" alt="AI technology background" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-particles" id="particles-container"></div>
+    <div class="hero-content">
+      <div class="hero-badge glass-card">
+        <span class="badge-dot"></span>
+        <span>Available for Internships &amp; Collaborations</span>
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Deehan Paul</span>
+      </h1>
+      <p class="hero-subtitle typewriter" id="typewriter"></p>
+      <p class="hero-description">
+        B.Tech CSE (AI/ML) student at KIIT University, passionate about building intelligent automation systems and
+        AI-powered workflows that drive real business impact.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary" id="hero-contact-btn">
+          <span>Get In Touch</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="Deehan_Paul_Resume.pdf" download="Deehan_Paul_Resume.pdf" class="btn btn-download"
+          id="hero-download-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span>Download Resume</span>
+        </a>
+        <a href="#experience" class="btn btn-ghost" id="hero-work-btn">
+          <span>View My Work</span>
+        </a>
+      </div>
+      <div class="hero-social">
+        <a href="mailto:deehanpaul456@gmail.com" class="social-icon-link" id="hero-email" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,12 2,6" />
+          </svg>
+        </a>
+        <a href="tel:+919775108191" class="social-icon-link" id="hero-phone" aria-label="Phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/deehan-paul-230963347/" target="_blank" rel="noopener"
+          class="social-icon-link" id="hero-linkedin" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-desc">Driven by curiosity.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card" id="about-card-left">
+          <div class="about-avatar-wrapper">
+            <div class="about-avatar">
+              <img src="deehan.jpg" alt="Deehan Paul" class="about-avatar-img" />
+            </div>
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring avatar-ring-2"></div>
+          </div>
+          <div class="about-info">
+            <h3>Deehan Paul</h3>
+            <p class="about-role">AI Automation &amp; Operations Engineer</p>
+            <div class="about-details">
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span>Bhubaneswar / Siliguri, India</span>
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+                <span>KIIT University, 2024–2028</span>
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                </svg>
+                <span>5 Industry Certifications (2024)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-content" id="about-text">
+          <p class="about-paragraph">
+            I'm an <strong>AI-curious B.Tech CSE (AI/ML)</strong> student at KIIT University with a passion for
+            designing and deploying intelligent automation systems. I thrive at the intersection of AI technology and
+            real-world business operations.
+          </p>
+          <p class="about-paragraph">
+            My hands-on experience spans <strong>building AI-powered workflows</strong> using platforms like IBM watsonx
+            Orchestrate, automating data pipelines, and working with enterprise AI tools. I've completed simulation
+            projects with industry giants like Deloitte, JPMorgan Chase, and Tata Group.
+          </p>
+          <p class="about-paragraph">
+            I'm a <strong>fast, self-directed learner</strong> who proactively completed 5 industry certifications in
+            2024 alongside my B.Tech studies — always comfortable exploring and adopting new tools independently.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item glass-card">
+              <span class="stat-number" data-target="5">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-item glass-card">
+              <span class="stat-number" data-target="4">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item glass-card">
+              <span class="stat-number" data-target="3">0</span>
+              <span class="stat-label">Languages</span>
+            </div>
+            <div class="stat-item glass-card">
+              <span class="stat-number" data-target="2024">0</span>
+              <span class="stat-label">Started</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills &amp; Tools</h2>
+        <p class="section-desc">My toolkit for building intelligent solutions.</p>
+      </div>
+      <div class="skills-categories">
+
+        <div class="skill-category glass-card" id="skill-ai">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon ai-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3>AI &amp; Automation Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="90">Claude (Anthropic)</span>
+            <span class="skill-tag" data-level="85">IBM watsonx Orchestrate</span>
+            <span class="skill-tag" data-level="80">NVIDIA AI Platform</span>
+            <span class="skill-tag" data-level="78">ChatGPT / OpenAI</span>
+            <span class="skill-tag" data-level="75">Prompt Engineering</span>
+            <span class="skill-tag" data-level="72">LLM Fundamentals</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card" id="skill-workflow">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon workflow-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+            </div>
+            <h3>Workflow &amp; Integration</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="80">REST APIs &amp; JSON</span>
+            <span class="skill-tag" data-level="85">Google Workspace</span>
+            <span class="skill-tag" data-level="78">Airtable</span>
+            <span class="skill-tag" data-level="80">Notion</span>
+            <span class="skill-tag" data-level="75">API Integration</span>
+            <span class="skill-tag" data-level="70">Data Pipelines</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card" id="skill-data">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon data-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <h3>Data &amp; Reporting</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="88">MS Excel</span>
+            <span class="skill-tag" data-level="85">Google Sheets</span>
+            <span class="skill-tag" data-level="78">Tableau</span>
+            <span class="skill-tag" data-level="75">Data Visualization</span>
+            <span class="skill-tag" data-level="80">Business Intelligence</span>
+            <span class="skill-tag" data-level="72">Dashboard Creation</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card" id="skill-prog">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon prog-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+            </div>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="75">Python</span>
+            <span class="skill-tag" data-level="65">C Language</span>
+            <span class="skill-tag" data-level="78">JSON</span>
+            <span class="skill-tag" data-level="72">REST API Concepts</span>
+            <span class="skill-tag" data-level="70">Data Processing</span>
+            <span class="skill-tag" data-level="68">Scripting</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card" id="skill-comm">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon comm-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+              </svg>
+            </div>
+            <h3>Communication &amp; Soft Skills</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="90">English (Proficient)</span>
+            <span class="skill-tag" data-level="88">Hindi</span>
+            <span class="skill-tag" data-level="88">Bengali</span>
+            <span class="skill-tag" data-level="85">Technical Documentation</span>
+            <span class="skill-tag" data-level="82">SOP Writing</span>
+            <span class="skill-tag" data-level="88">Self-Learning</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE SECTION ========== -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects &amp; Experience</h2>
+        <p class="section-desc">Real-world simulations with industry leaders.</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" id="exp-ibm">
+          <div class="timeline-dot">
+            <div class="timeline-dot-inner ibm-dot"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div class="timeline-company">
+                <div class="company-badge ibm-badge">IBM</div>
+                <div>
+                  <h3>AI Assistant Development</h3>
+                  <span class="timeline-role">watsonx Orchestrate Platform</span>
+                </div>
+              </div>
+              <span class="timeline-date">2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built and deployed an AI-powered assistant using IBM's enterprise orchestration platform.</li>
+              <li>Designed multi-step AI workflows simulating customer support triage, response automation, and task
+                routing.</li>
+              <li>Documented the workflow for handoff, ensuring reproducibility by non-technical users.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>IBM watsonx</span>
+              <span>AI Workflows</span>
+              <span>Automation</span>
+              <span>Documentation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" id="exp-nvidia">
+          <div class="timeline-dot">
+            <div class="timeline-dot-inner nvidia-dot"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div class="timeline-company">
+                <div class="company-badge nvidia-badge">NVIDIA</div>
+                <div>
+                  <h3>AI &amp; Generative AI Certification</h3>
+                  <span class="timeline-role">NVIDIA Academy</span>
+                </div>
+              </div>
+              <span class="timeline-date">2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Completed structured training on Generative AI, LLM fundamentals, prompt engineering, and AI
+                application design.</li>
+              <li>Gained theoretical and practical foundation to build Claude-powered automation systems for customer
+                support and operations workflows.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Generative AI</span>
+              <span>LLM</span>
+              <span>Prompt Engineering</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" id="exp-deloitte">
+          <div class="timeline-dot">
+            <div class="timeline-dot-inner deloitte-dot"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div class="timeline-company">
+                <div class="company-badge deloitte-badge">Deloitte</div>
+                <div>
+                  <h3>Operations Data Analysis &amp; Visualization</h3>
+                  <span class="timeline-role">Deloitte &amp; Tata Virtual Simulation</span>
+                </div>
+              </div>
+              <span class="timeline-date">2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Analysed operational datasets and produced structured business reports using Excel and Tableau.</li>
+              <li>Built data-driven decision frameworks applicable to automated reporting pipelines and business summary
+                generation.</li>
+              <li>Practiced documentation and presentation of insights to stakeholders.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Excel</span>
+              <span>Tableau</span>
+              <span>Data Analysis</span>
+              <span>Reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" id="exp-jpmorgan">
+          <div class="timeline-dot">
+            <div class="timeline-dot-inner jp-dot"></div>
+          </div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div class="timeline-company">
+                <div class="company-badge jp-badge">JPMorgan</div>
+                <div>
+                  <h3>Price Data &amp; Credit Risk Analysis</h3>
+                  <span class="timeline-role">JPMorgan Chase &amp; Co. Simulation</span>
+                </div>
+              </div>
+              <span class="timeline-date">2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Processed financial datasets, identified risk patterns, and generated structured analytical summaries.
+              </li>
+              <li>Strengthened Python and spreadsheet-based data pipeline skills relevant to procurement research,
+                vendor comparison, and cost analysis tools.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span>
+              <span>Financial Analysis</span>
+              <span>Risk Management</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION SECTION ========== -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Journey</span>
+        <h2 class="section-title">Education</h2>
+        <p class="section-desc">Building a strong foundation in AI &amp; Engineering.</p>
+      </div>
+      <div class="education-grid">
+        <div class="edu-card glass-card" id="edu-kiit">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+              <path d="M6 12v5c3 3 9 3 12 0v-5" />
+            </svg>
+          </div>
+          <div class="edu-info">
+            <span class="edu-degree">B.Tech – Computer Science &amp; Engineering</span>
+            <span class="edu-spec">(AI/ML Specialization)</span>
+            <h3 class="edu-inst">KIIT University, Bhubaneswar</h3>
+            <span class="edu-year">2024 – 2028</span>
+          </div>
+          <div class="edu-badge current-badge">Current</div>
+        </div>
+        <div class="edu-card glass-card" id="edu-school">
+          <div class="edu-icon edu-icon-2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <div class="edu-info">
+            <span class="edu-degree">Higher Secondary (Class XI &amp; XII)</span>
+            <span class="edu-spec">Science Stream</span>
+            <h3 class="edu-inst">Techno India Group Public School, Siliguri</h3>
+            <span class="edu-year">2022 – 2024</span>
+          </div>
+          <div class="edu-badge completed-badge">Completed</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS SECTION ========== -->
+  <section class="section certifications-section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-desc">5 industry certifications earned in 2024 alongside full-time studies.</p>
+      </div>
+      <div class="certs-grid">
+
+        <div class="cert-card glass-card" id="cert-ibm">
+          <div class="cert-glow ibm-glow"></div>
+          <div class="cert-icon ibm-cert">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <div class="cert-info">
+            <h3>AI Assistant Development</h3>
+            <p>with watsonx Orchestrate</p>
+            <span class="cert-issuer">IBM</span>
+          </div>
+          <span class="cert-year">2024</span>
+        </div>
+
+        <div class="cert-card glass-card" id="cert-nvidia">
+          <div class="cert-glow nvidia-glow"></div>
+          <div class="cert-icon nvidia-cert">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+          </div>
+          <div class="cert-info">
+            <h3>AI and Generative AI</h3>
+            <p>Fundamentals &amp; Applications</p>
+            <span class="cert-issuer">NVIDIA Academy</span>
+          </div>
+          <span class="cert-year">2024</span>
+        </div>
+
+        <div class="cert-card glass-card" id="cert-deloitte">
+          <div class="cert-glow deloitte-glow"></div>
+          <div class="cert-icon deloitte-cert">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
+            </svg>
+          </div>
+          <div class="cert-info">
+            <h3>Data Analytics &amp; Forensic Technology</h3>
+            <p>Virtual Internship Program</p>
+            <span class="cert-issuer">Deloitte</span>
+          </div>
+          <span class="cert-year">2024</span>
+        </div>
+
+        <div class="cert-card glass-card" id="cert-tata">
+          <div class="cert-glow tata-glow"></div>
+          <div class="cert-icon tata-cert">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <div class="cert-info">
+            <h3>Data Visualization</h3>
+            <p>Virtual Internship Program</p>
+            <span class="cert-issuer">Tata Group</span>
+          </div>
+          <span class="cert-year">2024</span>
+        </div>
+
+        <div class="cert-card glass-card" id="cert-jpmorgan">
+          <div class="cert-glow jp-glow"></div>
+          <div class="cert-icon jp-cert">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <div class="cert-info">
+            <h3>Price Analysis &amp; Credit Risk</h3>
+            <p>Virtual Internship Program</p>
+            <span class="cert-issuer">JPMorgan Chase &amp; Co.</span>
+          </div>
+          <span class="cert-year">2024</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-desc">I'm open to internships, collaborations, and exciting AI projects.</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info" id="contact-info">
+          <div class="contact-card glass-card">
+            <h3>Let's Work Together</h3>
+            <p>Whether you're looking for an AI automation intern, a collaborator on data projects, or just want to
+              discuss AI workflows — I'd love to hear from you!</p>
+            <div class="contact-methods">
+              <a href="mailto:deehanpaul456@gmail.com" class="contact-method" id="contact-email-link">
+                <div class="contact-method-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,12 2,6" />
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-method-label">Email</span>
+                  <span class="contact-method-value">deehanpaul456@gmail.com</span>
+                </div>
+              </a>
+              <a href="tel:+919775108191" class="contact-method" id="contact-phone-link">
+                <div class="contact-method-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-method-label">Phone</span>
+                  <span class="contact-method-value">+91 9775108191</span>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/deehan-paul-230963347/" target="_blank" rel="noopener"
+                class="contact-method" id="contact-linkedin-link">
+                <div class="contact-method-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-method-label">LinkedIn</span>
+                  <span class="contact-method-value">Deehan Paul</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper" id="contact-form-wrapper">
+          <form class="contact-form glass-card" id="contact-form" novalidate>
+            <h3>Send a Message</h3>
+            <div class="form-group">
+              <label for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Your Email</label>
+              <input type="email" id="contact-email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" name="subject" placeholder="Internship Opportunity..." />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Hi Deehan, I'd love to discuss..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="contact-submit-btn">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+            <div class="form-success" id="form-success" style="display:none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo" id="footer-logo">
+            <span class="logo-text">DP</span>
+            <span class="logo-dot"></span>
+          </a>
+          <p>AI Automation &amp; Workflow Engineer building intelligent systems for the future.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><a href="mailto:deehanpaul456@gmail.com">deehanpaul456@gmail.com</a></p>
+          <p><a href="tel:+919775108191">+91 9775108191</a></p>
+          <p>Bhubaneswar / Siliguri, India</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Deehan Paul. Designed with ❤️ by Deehan</p>
+        <p>Built with HTML, CSS &amp; JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
